@@ -1,6 +1,6 @@
 package com.java8;
 
-import com.epam.java8.model.Employee;
+import com.java8.model.Employee;
 
 import java.util.*;
 import java.util.function.Function;

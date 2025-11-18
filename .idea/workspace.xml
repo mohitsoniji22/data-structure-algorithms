@@ -4,18 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c913d893-a830-4669-8834-2206f39f3107" name="Changes" comment="" />
+    <list default="true" id="c913d893-a830-4669-8834-2206f39f3107" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/TwoSum1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/hard/BinaryTreeMaximumPathSum124.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/StreamsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/StreamsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/BestTimeToBuyAndSellStock121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/BestTimeToBuyAndSellStock121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/MaximumDepthBinaryTree104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/MaximumDepthBinaryTree104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/MergeTwoSortedLists21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/MergeTwoSortedLists21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/NumberOf1Bits191.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/NumberOf1Bits191.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/SameTree100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/SameTree100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/ValidAnagram242.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/ValidAnagram242.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/ValidPalindrome125.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/ValidPalindrome125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/JumpGame55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/JumpGame55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/LevelOrderBTFromPreAndInOrder105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/LevelOrderBTFromPreAndInOrder105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/MaximumProductSubArray152.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/MaximumProductSubArray152.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/ReorderList143.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/ReorderList143.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/SpiralMatrix54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/SpiralMatrix54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/WordBreak139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/WordBreak139.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="35VKtnLFMhMkIHJsWoDzDUgxSSs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,6 +51,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BestTimeToBuyAndSellStock121.executor": "Run",
+    "Application.BinaryTreeMaximumPathSum124.executor": "Run",
+    "Application.InvertBinaryTree226.executor": "Run",
+    "Application.JumpGame55.executor": "Debug",
+    "Application.MaximumProductSubArray152.executor": "Debug",
+    "Application.MergeTwoSortedLists21.executor": "Run",
+    "Application.ReorderList143.executor": "Run",
+    "Application.ReverseBits190.executor": "Debug",
+    "Application.ReverseLinkedList206.executor": "Run",
+    "Application.SameTree100.executor": "Debug",
+    "Application.Sample (1).executor": "Run",
+    "Application.Sample.executor": "Run",
+    "Application.StreamsMain.executor": "Run",
+    "Application.TwoSum1.executor": "Run",
+    "Application.WordBreak139.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -35,6 +77,85 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.leetcode.blind75.mediam" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BinaryTreeMaximumPathSum124">
+    <configuration name="BinaryTreeMaximumPathSum124" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.hard.BinaryTreeMaximumPathSum124" />
+      <module name="data-structure-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.blind75.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumProductSubArray152" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.mediam.MaximumProductSubArray152" />
+      <module name="data-structure-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.blind75.mediam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReorderList143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.mediam.ReorderList143" />
+      <module name="data-structure-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.blind75.mediam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseBits190" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.easy.ReverseBits190" />
+      <module name="data-structure-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.blind75.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.easy.ReverseLinkedList206" />
+      <module name="data-structure-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.blind75.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinaryTreeMaximumPathSum124" />
+        <item itemvalue="Application.ReverseBits190" />
+        <item itemvalue="Application.MaximumProductSubArray152" />
+        <item itemvalue="Application.ReorderList143" />
+        <item itemvalue="Application.ReverseLinkedList206" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,6 +175,47 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/epam/book/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/MergeTwoSortedLists21.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/SameTree100.java</url>
+          <line>18</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/JumpGame55.java</url>
+          <line>26</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/JumpGame55.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/ReorderList143.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/mediam/MaximumProductSubArray152.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/easy/ReverseBits190.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

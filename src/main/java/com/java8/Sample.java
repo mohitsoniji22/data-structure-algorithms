@@ -1,46 +1,48 @@
 package com.java8;
 
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
 //Find no of islands in a 2D matrix
 public class Sample {
 
-    public int noOfIslands(int[][] mat) {
-        if (mat.length == 0) {
-            return 0;
-        }
-        int noOfIslands = 0;
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[0].length; j++) {
-                if (mat[i][j] == 1) {
-                    noOfIslands++;
-                    dfs(mat, i, j);
-                }
-            }
+    public boolean canJump(int[] nums) {
+        int maxReach = 0;
+
+        for(int i=0; i<nums.length; i++) {
+            if(i > maxReach)
+                return false;
+
+            maxReach = Math.max(maxReach, i+nums[i]);
         }
 
-        return noOfIslands;
-    }
-
-    public void dfs(int[][] mat, int i, int j) {
-        if (i < 0 || j < 0 || i >= mat.length || j >= mat[0].length || mat[i][j] == 0) {
-            return;
-        }
-        mat[i][j] = 0; // mark as visited
-
-        dfs(mat, i + 1, j);
-        dfs(mat, i - 1, j);
-        dfs(mat, i, j + 1);
-        dfs(mat, i, j - 1);
+        return true;
     }
 
     public static void main(String[] args) {
-        int[][] mat = {
-                {1, 1, 1, 0, 0},
-                {1, 1, 1, 0, 0},
-                {1, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0},
-                {1, 0, 1, 0, 1}
-        };
+        Sample obj = new Sample();
 
-        System.out.println(new Sample().noOfIslands(mat));
+        int[] nums1 = {2, 3, 1, 1, 4};
+        int[] nums2 = {3, 2, 1, 0, 4};
+
+        //System.out.println("Can jump (nums1): " + canJump(nums1)); // true
+        System.out.println("Can jump (nums2): " + obj.canJump(nums2)); // false
+
     }
 }

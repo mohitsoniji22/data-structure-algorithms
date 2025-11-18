@@ -15,9 +15,17 @@ class TreeNode104 {
 public class MaximumDepthBinaryTree104 {
     public int maxDepth(TreeNode104 root) {
         if (root == null) return 0;
-        int leftDepth = maxDepth(root.left);
-        int rightDepth = maxDepth(root.right);
-        return 1 + Math.max(leftDepth, rightDepth);
+
+        return bsf(root, 0);
+    }
+
+    public int bsf(TreeNode104 root, int depth) {
+        if(root == null) return depth;
+
+        int leftDepth = bsf(root.left, depth + 1);
+        int rightDepth = bsf(root.right, depth + 1);
+
+        return Math.max(leftDepth, rightDepth);
     }
 
     public static void main(String[] args) {

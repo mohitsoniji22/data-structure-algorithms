@@ -28,8 +28,8 @@ public class SameTree100 {
     }
 
     public static void main(String[] args) {
-        TreeNode p = new TreeNode(1, new TreeNode(2), new TreeNode(3));
-        TreeNode q = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+        TreeNode p = new TreeNode(1, new TreeNode(2), null);
+        TreeNode q = new TreeNode(1, null, new TreeNode(3));
 
         SameTree100 solver = new SameTree100();
         System.out.println(solver.isSameTree(p, q)); // Output: true

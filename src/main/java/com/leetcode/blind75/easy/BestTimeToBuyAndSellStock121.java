@@ -2,19 +2,18 @@ package com.leetcode.blind75.easy;
 
 public class BestTimeToBuyAndSellStock121 {
     public static int maxProfit(int[] prices) {
-        int minPrice = Integer.MAX_VALUE;
-        int maxProfit = 0;
+        if(prices == null || prices.length == 1) return 0;
 
-        for (int price : prices) {
-            // Update the minimum price so far
-            if (price < minPrice) {
-                minPrice = price;
-            }
-            // Check if selling today gives better profit
-            else if (price - minPrice > maxProfit) {
-                maxProfit = price - minPrice;
-            }
+        int maxProfit = 0, profit = 0;
+        int buy=prices[0];
+
+        for(int i=1; i<prices.length; i++) {
+            if(prices[i] < buy)
+                buy = prices[i];
+            profit = prices[i] - buy;
+            maxProfit = Math.max(maxProfit, profit);
         }
+
         return maxProfit;
     }
 

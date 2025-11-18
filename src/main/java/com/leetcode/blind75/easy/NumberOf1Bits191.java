@@ -12,6 +12,19 @@ public class NumberOf1Bits191 {
         return count;
     }
 
+    public int hammingWeight2(int n) {
+        String number = Integer.toBinaryString(n);
+        char[] chars = number.toCharArray();
+        int count = 0;
+        for(char c : chars) {
+            if(c == '1') {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
     public static void main(String[] args) {
         NumberOf1Bits191 solver = new NumberOf1Bits191();
         int n = 0b00000000000000000000000000001011; // binary literal

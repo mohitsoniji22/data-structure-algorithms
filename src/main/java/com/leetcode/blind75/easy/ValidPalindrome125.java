@@ -2,23 +2,16 @@ package com.leetcode.blind75.easy;
 
 public class ValidPalindrome125 {
     public boolean isPalindrome(String s) {
-        String str = s.replaceAll("\\s+", "");
-        int left = 0, right = str.length() - 1;
+        s = s.toLowerCase().replaceAll("[^A-Za-z0-9]", "");
+        int left = 0, right = s.length()-1;
 
-        while (left < right) {
-            // Skip non-alphanumeric characters
-            while (left < right && !Character.isLetterOrDigit(str.charAt(left))) {
+        while(left<=right) {
+            if(s.charAt(left) != s.charAt(right))
+                return false;
+            else {
                 left++;
-            }
-            while (left < right && !Character.isLetterOrDigit(str.charAt(right))) {
                 right--;
             }
-            if (Character.toLowerCase(str.charAt(left)) != Character.toLowerCase(str.charAt(right))) {
-                return false;
-            }
-
-            left++;
-            right--;
         }
 
         return true;
